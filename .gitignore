@@ -1,0 +1,22 @@
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Editor and operating-system files
+/.vscode/
+/.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs, temporary files, and database exports
+*.log
+*.tmp
+*.bak
+*.swp
+*.sql
